@@ -1,0 +1,18 @@
+html,body {
+    background-color: white;
+    height: 100vh;
+    overflow:hidden;
+
+}
+
+.main-nav li .glyphicon {
+    margin-right: 10px;
+}
+
+/* Highlighting rules for nav menu items */
+.main-nav li a.active,
+.main-nav li a.active:hover,
+.main-nav li a.active:focus {
+    background-color: #4189C7;
+    color: white;
+}

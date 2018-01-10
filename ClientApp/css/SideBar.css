@@ -1,0 +1,16 @@
+﻿.sidebar {
+    background-color: aqua;
+    width: 100px;
+    height: 800px;
+}
+
+
+.col-md-2 {
+    height: 100vh;
+    background-color: aqua;
+    border-style: solid;
+}
+
+.col-md-9 {
+    overflow: hidden;
+}

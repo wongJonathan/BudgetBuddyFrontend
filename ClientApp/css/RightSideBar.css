@@ -1,0 +1,73 @@
+﻿:root {
+    --width-right-side: 300px;
+}
+
+.rightSideBar {
+
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+}
+
+
+.rightSide {
+    float: right;
+    height: 100vh;
+    width: var(--width-right-side);
+    background-color: white;
+    border-style: solid;
+    border-right: none;
+    border-top: none;
+    border-width: 1px;
+}
+
+
+.col-md-9 {
+    overflow: hidden;
+}
+
+.editItem {
+    position: fixed;
+    bottom: 0px;
+   
+}
+
+.closeRightSideBar {
+    position:relative;
+    left: -34px;
+    top: -1px;
+}
+
+.exitSideBar {
+    width: 34px;
+    height: 34px;
+    background: black;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.glyphicon.glyphicon-remove {
+    font-size: 18px;
+    position: center;
+    color: white;
+}
+
+.bootStraptable {
+    top: -100px;
+}
+
+.tableContainer {
+    position: fixed;
+    background-color: white;
+    margin-top: -5px;
+    z-index: 99;
+}
+
+.tableBtnGroup {
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    top: -40px;
+    background: white;
+}

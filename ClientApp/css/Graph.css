@@ -1,0 +1,8 @@
+﻿:root {
+    --left-graph-padding: 30px;
+}
+
+.lineChart {
+
+    padding-left: var(--left-graph-padding);
+}

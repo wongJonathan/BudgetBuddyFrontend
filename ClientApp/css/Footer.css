@@ -1,0 +1,30 @@
+﻿.footer {
+    position: fixed;
+    left: 0;
+    right: 0px;
+    bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.btn-addItem {
+    height: 60px;
+    width: 60px;
+    right: 0px;
+}
+
+.addItem {
+    float: right;
+    height: 50px;
+    width: 50px;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0px;
+    z-index: 10;
+}
+
+.glyphicon.glyphicon-chevron-left {
+    font-size: 25px;
+    position: center;
+    color: grey;
+}

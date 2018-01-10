@@ -1,0 +1,66 @@
+﻿.login-page {
+    display: flex;
+    margin: auto auto;
+}
+
+.error {
+    color: red;
+    margin-top: 3px;
+}
+
+/*
+    Overall container that holds both sign in and sign up
+*/
+.container {
+    padding: 5px;
+    max-width: 500px;
+    min-width: 300px;
+    
+}
+
+.form-label {
+    margin-top: 20px;
+}
+
+/*
+    Holds the sign up css
+*/
+.sign-up-container {
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #d3d3d3;
+    border-width: 1px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/*
+    Holds the sign in css
+*/
+.log-in-container {
+    border-style: solid;
+    border-color: #d3d3d3;
+    border-width: 1px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/*
+    The css for any content box like sign in, log in
+*/
+.content-boxes {
+    border-style: solid;
+    border-color: #d3d3d3;
+    border-width: 1px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.btn {
+    /* Height of the text boxes*/
+    height: 34px;
+    margin-top: 10px;
+}

@@ -1,0 +1,39 @@
+﻿.register-page {
+
+}
+
+.error {
+    color: red;
+    margin-top: 3px;
+}
+
+.container {
+    padding: 5px;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+/*
+    Holds the back to login css
+*/
+.back-container {
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #d3d3d3;
+    border-width: 1px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/*
+    The css for any content box like sign in, log in
+*/
+.content-boxes {
+    border-style: solid;
+    border-color: #d3d3d3;
+    border-width: 1px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
